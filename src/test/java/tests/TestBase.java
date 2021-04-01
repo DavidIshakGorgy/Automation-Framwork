@@ -13,7 +13,7 @@ public class TestBase {
     @BeforeMethod
     public void initTest() {
         driver.set(BrowserFactory.getBrowser(BrowserFactory.BrowserType.GOOGLE_CHROME));
-        BrowserActions.navigateToURL(getDriver(), "https://vezeeta-beta.drbridge.org/en", "https://vezeeta-beta.drbridge.org/en");
+        BrowserActions.navigateToURL(getDriver(), "https://www.google.com", "https://www.google.com");
     }
 
     @AfterMethod

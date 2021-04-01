@@ -9,7 +9,7 @@ public class LoginTest extends TestBase {
 
     @Test
     public void selectSpecialityTest() {
-        selectSpeciality("Phoniatrics (Speech)");
+//        selectSpeciality("Phoniatrics (Speech)");
     }
 
     private void selectSpeciality(String name) {
