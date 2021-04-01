@@ -20,4 +20,3 @@ Log4j/
 *.sh
 *.prefs
 /target/
-/target
