@@ -63,4 +63,4 @@ jobs:
             context: 'Allure Test Execution Report'
             state: 'success'
             sha: ${{ github.event.pull_request.head.sha }}
-            target_url: https://davidishakgorgy.github.io/uiautomation.github.io/${{ github.run_number }}
+            target_url: https://davidishakgorgy.github.io/Vezeeta-UIWebAutomation/${{ github.run_number }}
