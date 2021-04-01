@@ -3,7 +3,9 @@
 
 name: Selenium Java CI
 
-on: [push]
+on:
+  push:
+    branches: [ main ]
 
 jobs:
   build:
