@@ -1,0 +1,22 @@
+#IDE specific files
+.idea/*
+out
+out/*
+settings.xml
+*.iml
+build/reports/tests/test/*
+build/classes/java/main/*
+build/classes/java/test/*
+build/tmp/*
+.gradle*
+build/test-results/test/*
+build/reports*
+Screenshots/*
+build/
+Log4j/
+/allure-results/
+/using_SHAFT_ENGINE.iml
+*.bat
+*.sh
+*.prefs
+/target/
