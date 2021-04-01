@@ -3,6 +3,7 @@
 
 name: Selenium Java CI
 
+
 on:
   push:
     branches: [ main ]
