@@ -1,0 +1,23 @@
+# This workflow will build a Java project with Maven
+# For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-maven
+
+name: Selenium Java CI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest # Using linux machine
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Starting docker compose
+      run: docker-compose up -d
+        
+    - uses: actions/checkout@v2 # Checkout the code
+    - name: Set up JDK 15
+      uses: actions/setup-java@v1 # Setup JAVA
+      with:
+        java-version: 15
+    - name: Build with Maven
+      run: mvn -B package --file pom.xml
