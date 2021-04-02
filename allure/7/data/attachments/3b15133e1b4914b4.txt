@@ -1,0 +1,7 @@
+
+################################################################################################################################################
+Starting Execution:	[1 out of 1] test cases in the current suite
+Test Method:		[tests.LoginTest.selectSpecialityTest]
+################################################################################################################################################
+[ReportManager] Element Action [type] successfully performed. With the following test data [github]. @02-04-2021 00:18:43.0439 AM
+[ReportManager] Element Action [click] successfully performed. With the following test data [Google Search]. @02-04-2021 00:18:46.0616 A

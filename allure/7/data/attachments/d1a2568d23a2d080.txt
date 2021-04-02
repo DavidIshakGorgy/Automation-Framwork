@@ -1,0 +1,27 @@
+################################################################################################################################################
+Detected SHAFT Engine Version: [SHAFT Engine v5.1]
+################################################################################################################################################
+[ReportManager] File Action [getAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @02-04-2021 00:18:39.0492 AM
+[ReportManager] Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution. @02-04-2021 00:18:39.0541 AM
+[ReportManager] Successfully Opened [GoogleChrome]. @02-04-2021 00:18:41.0138 AM
+[ReportManager] Target URL: [https://www.google.com] @02-04-2021 00:18:41.0189 AM
+[ReportManager] Initial URL: [data:,] @02-04-2021 00:18:41.0300 AM
+[ReportManager] Browser Action [navigateToURL] successfully performed. With the following test data [https://www.google.com]. @02-04-2021 00:18:42.0654 A
+
+################################################################################################################################################
+Starting Execution:	[1 out of 1] test cases in the current suite
+Test Method:		[tests.LoginTest.selectSpecialityTest]
+################################################################################################################################################
+[ReportManager] Element Action [type] successfully performed. With the following test data [github]. @02-04-2021 00:18:43.0439 AM
+[ReportManager] Element Action [click] successfully performed. With the following test data [Google Search]. @02-04-2021 00:18:46.0616 A
+
+
+################################################################################################################################################
+Test Closure Activities
+################################################################################################################################################
+[ReportManager] Successfully created attachment [SHAFT Engine Logs - Execution log] @02-04-2021 00:18:46.0728 AM
+
+################################################################################################################################################
+This test run was powered by SHAFT Engine Version: [SHAFT Engine v5.1]
+SHAFT Engine is licensed under the MIT License: [https://github.com/MohabMohie/SHAFT_ENGINE/blob/master/LICENSE].
+################################################################################################################################################
