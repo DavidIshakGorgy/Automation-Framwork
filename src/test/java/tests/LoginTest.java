@@ -1,6 +1,7 @@
 package tests;
 
 import com.shaft.gui.element.ElementActions;
+import com.shaft.validation.Assertions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
@@ -10,6 +11,9 @@ public class LoginTest extends TestBase {
     @Test
     public void selectSpecialityTest() {
 //        selectSpeciality("Phoniatrics (Speech)");
+        ElementActions.type(getDriver(), By.xpath("//input[@name = 'q']"), "github");
+        ElementActions.click(getDriver(), By.xpath("(//input[@name = 'btnK'])[2]"));
+
     }
 
     private void selectSpeciality(String name) {
