@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://DavidIshakGorgy.github.io/Vezeeta-UIWebAutomation/allure",
+  "buildOrder" : 27,
+  "buildName" : "GitHub Actions Run #722546714",
+  "buildUrl" : "https://github.com/DavidIshakGorgy/Vezeeta-UIWebAutomation/actions/runs/722546714",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://DavidIshakGorgy.github.io/Vezeeta-UIWebAutomation/allure/27/"
+} ]
