@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Apr 06 06:42:56 GMT 2021","Tue Apr 06 06:43:00 GMT 2021","3880","SHAFT_Engine: Custom Suite","SHAFT_Engine: Custom Test","tests.LoginTest","tests.LoginTest","selectSpecialityTest","selectSpecialityTest",""
