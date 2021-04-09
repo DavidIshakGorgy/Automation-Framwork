@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az278-724",
+    "children" : [ {
+      "name" : "4003@fv-az278-724.main(1)",
+      "children" : [ {
+        "name" : "selectSpecialityTest",
+        "uid" : "480e7090b8175e86",
+        "parentUid" : "a966280cd27c03947db49d80dbd105ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617972720700,
+          "stop" : 1617972724452,
+          "duration" : 3752
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a966280cd27c03947db49d80dbd105ff"
+    } ],
+    "uid" : "9f25421bbcb2878d7e8653ae544e147c"
+  } ],
+  "name" : "timeline"
+}
