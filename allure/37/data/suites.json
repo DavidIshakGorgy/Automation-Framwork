@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "SHAFT_Engine: Custom Suite",
+    "children" : [ {
+      "name" : "SHAFT_Engine: Custom Test",
+      "children" : [ {
+        "name" : "tests.LoginTest",
+        "children" : [ {
+          "name" : "selectSpecialityTest",
+          "uid" : "ae13c2ef212472aa",
+          "parentUid" : "f535741b68194c42c112f8fc029a1c09",
+          "status" : "passed",
+          "time" : {
+            "start" : 1617932052704,
+            "stop" : 1617932056454,
+            "duration" : 3750
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f535741b68194c42c112f8fc029a1c09"
+      } ],
+      "uid" : "eea42debfb25fd7bb1c6539f36a525ae"
+    } ],
+    "uid" : "ac081da5bda34cb523158e25918db629"
+  } ],
+  "name" : "suites"
+}
