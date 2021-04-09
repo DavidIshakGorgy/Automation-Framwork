@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "tests.LoginTest",
+    "children" : [ {
+      "name" : "selectSpecialityTest",
+      "uid" : "5e2480f6ae21e62f",
+      "parentUid" : "7e9d293a8b53daca8dc3b4f7e5dac786",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617950655824,
+        "stop" : 1617950658775,
+        "duration" : 2951
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.LoginTest"
+  } ],
+  "name" : "packages"
+}
