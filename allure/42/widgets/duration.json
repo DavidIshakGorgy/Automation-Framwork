@@ -1,0 +1,11 @@
+[ {
+  "uid" : "8c4e46ec0eb61144",
+  "name" : "selectSpecialityTest",
+  "time" : {
+    "start" : 1618036876309,
+    "stop" : 1618036880325,
+    "duration" : 4016
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

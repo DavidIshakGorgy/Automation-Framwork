@@ -1,0 +1,458 @@
+{
+  "uid" : "8c4e46ec0eb61144",
+  "name" : "selectSpecialityTest",
+  "fullName" : "tests.LoginTest.selectSpecialityTest",
+  "historyId" : "499b25cf5f30391192fb6baeb4099f72",
+  "time" : {
+    "start" : 1618036876309,
+    "stop" : 1618036880325,
+    "duration" : 4016
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initTest",
+    "time" : {
+      "start" : 1618036872898,
+      "stop" : 1618036876009,
+      "duration" : 3111
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [2]: Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution.",
+      "time" : {
+        "start" : 1618036872971,
+        "stop" : 1618036872973,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "2"
+      }, {
+        "name" : "logText",
+        "value" : "Attempting to run remotely on: [Linux-64], [GoogleChrome], [http://localhost:4444/wd/hub], Headless Execution."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Action [3]: Successfully Opened [GoogleChrome].",
+      "time" : {
+        "start" : 1618036874392,
+        "stop" : 1618036874392,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "3"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Opened [GoogleChrome]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Action [4]: Browser Action [navigateToURL] successfully performed. With the following test data [https://www.google.com].",
+      "time" : {
+        "start" : 1618036876007,
+        "stop" : 1618036876008,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "4"
+      }, {
+        "name" : "logText",
+        "value" : "Browser Action [navigateToURL] successfully performed. With the following test data [https://www.google.com]."
+      }, {
+        "name" : "attachments",
+        "value" : "[null]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [5]: Element Action [type] successfully performed. With the following test data [github].",
+      "time" : {
+        "start" : 1618036877079,
+        "stop" : 1618036877086,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "5"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [type] successfully performed. With the following test data [github]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Action [6]: Element Action [click] successfully performed. With the following test data [Google Search].",
+      "time" : {
+        "start" : 1618036880298,
+        "stop" : 1618036880298,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "6"
+      }, {
+        "name" : "logText",
+        "value" : "Element Action [click] successfully performed. With the following test data [Google Search]."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "7c04b8f1058ff6bf",
+      "name" : "Attachment: SHAFT Engine Logs - Current Method log: selectSpecialityTest",
+      "source" : "7c04b8f1058ff6bf.txt",
+      "type" : "text/plain",
+      "size" : 675
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1618036880340,
+      "stop" : 1618036880424,
+      "duration" : 84
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "closureActivities",
+    "time" : {
+      "start" : 1618036880434,
+      "stop" : 1618036881008,
+      "duration" : 574
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Action [7]: Successfully Closed All Browsers.",
+      "time" : {
+        "start" : 1618036880434,
+        "stop" : 1618036880435,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actionCounter",
+        "value" : "7"
+      }, {
+        "name" : "logText",
+        "value" : "Successfully Closed All Browsers."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "5e041ca02cac9741",
+      "name" : "Attachment: SHAFT Engine Logs - Execution log: 20210410-064120",
+      "source" : "5e041ca02cac9741.txt",
+      "type" : "text/plain",
+      "size" : 2640
+    }, {
+      "uid" : "706fce6f831ddde0",
+      "name" : "Attachment: HTML - Extent Emailable Execution Report",
+      "source" : "706fce6f831ddde0.html",
+      "type" : "text/html",
+      "size" : 8166
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "selectSpecialityTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SHAFT_Engine: Custom Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SHAFT_Engine: Custom Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az190-262"
+  }, {
+    "name" : "thread",
+    "value" : "4099@fv-az190-262.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 36,
+        "unknown" : 0,
+        "total" : 36
+      },
+      "items" : [ {
+        "uid" : "57eb1b4a22f66dff",
+        "reportUrl" : "https://DavidIshakGorgy.github.io/Vezeeta-UIWebAutomation/allure/41//#testresult/57eb1b4a22f66dff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618018545276,
+          "stop" : 1618018549401,
+          "duration" : 4125
+        }
+      }, {
+        "uid" : "f7b50afb12e2231a",
+        "reportUrl" : "https://DavidIshakGorgy.github.io/Vezeeta-UIWebAutomation/allure/40//#testresult/f7b50afb12e2231a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617993762232,
+          "stop" : 1617993765835,
+          "duration" : 3603
+        }
+      }, {
+        "uid" : "480e7090b8175e86",
+        "reportUrl" : "https://DavidIshakGorgy.github.io/Vezeeta-UIWebAutomation/allure/39//#testresult/480e7090b8175e86",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617972720700,
+          "stop" : 1617972724452,
+          "duration" : 3752
+        }
+      }, {
+        "uid" : "5e2480f6ae21e62f",
+        "reportUrl" : "https://DavidIshakGorgy.github.io/Vezeeta-UIWebAutomation/allure/38//#testresult/5e2480f6ae21e62f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617950655824,
+          "stop" : 1617950658775,
+          "duration" : 2951
+        }
+      }, {
+        "uid" : "ae13c2ef212472aa",
+        "reportUrl" : "https://DavidIshakGorgy.github.io/Vezeeta-UIWebAutomation/allure/37//#testresult/ae13c2ef212472aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617932052704,
+          "stop" : 1617932056454,
+          "duration" : 3750
+        }
+      }, {
+        "uid" : "4c92e4c60faf1902",
+        "reportUrl" : "https://DavidIshakGorgy.github.io/Vezeeta-UIWebAutomation/allure/36//#testresult/4c92e4c60faf1902",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617907964130,
+          "stop" : 1617907967574,
+          "duration" : 3444
+        }
+      }, {
+        "uid" : "8ed67b1ed6fb664d",
+        "reportUrl" : "https://DavidIshakGorgy.github.io/Vezeeta-UIWebAutomation/allure/35//#testresult/8ed67b1ed6fb664d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617886245008,
+          "stop" : 1617886248235,
+          "duration" : 3227
+        }
+      }, {
+        "uid" : "2d4f46c7d47dbd93",
+        "reportUrl" : "https://DavidIshakGorgy.github.io/Vezeeta-UIWebAutomation/allure/34//#testresult/2d4f46c7d47dbd93",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617864175593,
+          "stop" : 1617864178795,
+          "duration" : 3202
+        }
+      }, {
+        "uid" : "b0f68ff9afbdc934",
+        "reportUrl" : "https://DavidIshakGorgy.github.io/Vezeeta-UIWebAutomation/allure/33//#testresult/b0f68ff9afbdc934",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617845910580,
+          "stop" : 1617845913991,
+          "duration" : 3411
+        }
+      }, {
+        "uid" : "9d64d70fb2dc352b",
+        "reportUrl" : "https://DavidIshakGorgy.github.io/Vezeeta-UIWebAutomation/allure/32//#testresult/9d64d70fb2dc352b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617821647815,
+          "stop" : 1617821651340,
+          "duration" : 3525
+        }
+      }, {
+        "uid" : "ceaa9946410062b2",
+        "reportUrl" : "https://DavidIshakGorgy.github.io/Vezeeta-UIWebAutomation/allure/31//#testresult/ceaa9946410062b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617800005880,
+          "stop" : 1617800009763,
+          "duration" : 3883
+        }
+      }, {
+        "uid" : "8e8454c208123f89",
+        "reportUrl" : "https://DavidIshakGorgy.github.io/Vezeeta-UIWebAutomation/allure/30//#testresult/8e8454c208123f89",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617777845093,
+          "stop" : 1617777848851,
+          "duration" : 3758
+        }
+      }, {
+        "uid" : "2ac25965f357b702",
+        "reportUrl" : "https://DavidIshakGorgy.github.io/Vezeeta-UIWebAutomation/allure/29//#testresult/2ac25965f357b702",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617759458908,
+          "stop" : 1617759462101,
+          "duration" : 3193
+        }
+      }, {
+        "uid" : "f5b881d75868fde1",
+        "reportUrl" : "https://DavidIshakGorgy.github.io/Vezeeta-UIWebAutomation/allure/28//#testresult/f5b881d75868fde1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617735266563,
+          "stop" : 1617735270754,
+          "duration" : 4191
+        }
+      }, {
+        "uid" : "83ee839ce8e9ce0",
+        "reportUrl" : "https://DavidIshakGorgy.github.io/Vezeeta-UIWebAutomation/allure/27//#testresult/83ee839ce8e9ce0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617713431502,
+          "stop" : 1617713435434,
+          "duration" : 3932
+        }
+      }, {
+        "uid" : "164771924b0bb1bf",
+        "reportUrl" : "https://DavidIshakGorgy.github.io/Vezeeta-UIWebAutomation/allure/26//#testresult/164771924b0bb1bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617691376582,
+          "stop" : 1617691380462,
+          "duration" : 3880
+        }
+      }, {
+        "uid" : "813ca251ef2c3bc2",
+        "reportUrl" : "https://DavidIshakGorgy.github.io/Vezeeta-UIWebAutomation/allure/25//#testresult/813ca251ef2c3bc2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617672903763,
+          "stop" : 1617672906795,
+          "duration" : 3032
+        }
+      }, {
+        "uid" : "47aa3d871e2974f0",
+        "reportUrl" : "https://DavidIshakGorgy.github.io/Vezeeta-UIWebAutomation/allure/24//#testresult/47aa3d871e2974f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617648653866,
+          "stop" : 1617648656931,
+          "duration" : 3065
+        }
+      }, {
+        "uid" : "ba86ee3211839d0f",
+        "reportUrl" : "https://DavidIshakGorgy.github.io/Vezeeta-UIWebAutomation/allure/23//#testresult/ba86ee3211839d0f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617627191419,
+          "stop" : 1617627195248,
+          "duration" : 3829
+        }
+      }, {
+        "uid" : "d55b7c73b402a7ad",
+        "reportUrl" : "https://DavidIshakGorgy.github.io/Vezeeta-UIWebAutomation/allure/22//#testresult/d55b7c73b402a7ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617604963338,
+          "stop" : 1617604966543,
+          "duration" : 3205
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8c4e46ec0eb61144.json",
+  "parameterValues" : [ ]
+}
